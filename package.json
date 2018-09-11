@@ -1,0 +1,32 @@
+{
+  "name": "middleware-auth-lib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "dotenv": "^4.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.10",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "scripts": {
+    "lint": "node ./node_modules/eslint/bin/eslint.js -c .eslintrc.js --ext .js --fix --ignore-path .eslintignore .",
+    "test": "node ./node_modules/mocha/bin/mocha -t 90000 tests"
+  },
+  "author": "chronobank",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ChronoBank/middleware-auth-lib/issues"
+  },
+  "homepage": "https://github.com/ChronoBank/middleware-auth-lib#readme",
+  "description": "Middleware auth lib components",
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "chai": "^4.1.1",
+    "eslint": "^4.19.1",
+    "express": "^4.16.3",
+    "eslint-plugin-chronobank": "github:chronobank/eslint-plugin-chronobank",
+    "mocha": "^3.5.0"
+  }
+}
