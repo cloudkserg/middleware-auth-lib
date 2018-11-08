@@ -11,7 +11,7 @@ This library export some components for work with middleware-auth-serice.
 
 How to get components?
 ```
-const lib = require('middleware-auth-lib');
+const lib = require('middleware_auth_lib');
 ```
 
 #### Auth middleware
